@@ -29,7 +29,19 @@ The workflow was validated in a test environment using Playwright-driven Chromiu
 
 ## Validated Behavior
 
+Tool used: https://github.com/features/ai/github-app
+
 Testing confirmed the following behavior in Azure DevOps:
+
+## How to use
+
+1. Create a folder in your device
+2. Paste the organizations.csv file there (leave only the Admin Access=yes rows)
+3. Paste the skill.md file there
+4. In the command prompt, navigate to the folder from step 1
+5. Execute copilot <enter> (Trust this folder = yes)
+6. Change the model to Claude Opus 4.8 (type /model)
+7. Use this prompt: 'Check the skill.md file and execute it'
 
 ### Organization URLs
 
