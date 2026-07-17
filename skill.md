@@ -80,7 +80,7 @@ via the "Delete organization" button:
 |---|---|---|
 | `yes` | **4,774** | Credential is admin ⇒ **deletable** (sufficient) |
 | *(blank)* | **431** | **No admin access** ⇒ delete will **fail / not be exposed** ⇒ would trigger a pause |
-| `lost` | **3** | Access "lost" (`REDACTED`, `REDACTED`, `REDACTED`) ⇒ likely **not deletable** |
+| `lost` | **3** | Access "lost"  ⇒ likely **not deletable** |
 
 ⚠️ **Note:** Only orgs with explicit Admin access=yes will be considered. Other cases will be skipped for processing 
 and will be emitted into a separate `skipped_no_access.csv` for manual follow-up; 
